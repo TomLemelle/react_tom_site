@@ -1,0 +1,45 @@
+@media (min-width: 1050px){
+
+    .biography{
+        display: grid;
+        grid-template-columns: 1fr 1.9fr;
+        grid-template-rows: 10% 1fr;
+        grid-template-areas:
+        "image part"
+        "image part";
+        background-color: #e4e9e9;
+        height: auto;
+        padding: 25px 15px;
+        padding-left: 50px;
+    }
+
+    .photo{
+        grid-area: image;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .about{
+        grid-area: part;
+        align-items: center;
+        justify-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 40px;
+        margin-right: 40px;
+
+        h2{
+            color: #159da4;
+            align-self: center;
+            margin-bottom: 10px;
+        }
+    
+        p{
+            font-size: 20px;
+            padding-right: 60px;
+            align-self: center;
+            margin-top: 10px;
+        }
+    }
+}

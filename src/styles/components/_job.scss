@@ -1,0 +1,41 @@
+.jobs{
+    margin-top: 40px;
+}
+  
+.dev-jobs, .video-jobs{
+    width: 100%;
+}
+
+.jobs-picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+
+    h3 {
+        color: #159da4;
+        align-self: center;
+        margin-bottom: 20px;
+        font-weight: normal;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .camera, .code{
+        width: 80%;
+      }
+  }
+  
+.text-jobs{
+    color: #98A9AA;
+    margin-left: 40px;
+    margin-right: 40px;
+  
+    p{
+        font-size: 20px;
+    }
+}
+  

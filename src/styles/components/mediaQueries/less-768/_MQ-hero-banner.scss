@@ -1,0 +1,23 @@
+/* slider monteur vidéo & developpeur web  en dessous de 768px */
+
+@media (max-width :768px){
+    .hero-banner .slider .slide .caption{
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      padding: 20px;
+      transition: 0.5s;
+  
+      h2{
+        margin: 0 0 10px;
+        font-size: 30px;
+        transition: 0.5s;
+      }
+    
+      p{
+        font-size: 25px;
+        transition: 0.5s;
+    }
+  }
+}

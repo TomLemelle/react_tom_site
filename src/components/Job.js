@@ -20,7 +20,6 @@ const Job = () => {
                     </p>
                 </div>
             </div>
-            <hr className="hr" />
             <div className="video-jobs">
                 <div className="jobs-picture video-picture">
                     <h3>VIDÉO</h3>

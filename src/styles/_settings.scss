@@ -13,3 +13,12 @@ body {
     font-display: swap;
 }
   
+section {
+    max-width: 72.5%;
+    margin: 0 auto;
+}
+
+
+.hero-banner, .biography {
+    max-width: none !important;
+}

@@ -1,9 +1,9 @@
-import Home from './pages/Home';
+import CustomRouter from './components/CustomRouter';
 
 function App() {
   return (
-    <div>
-      <Home />
+    <div className="main">
+      <CustomRouter />
     </div>
   );
 }

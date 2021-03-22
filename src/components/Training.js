@@ -3,7 +3,7 @@ import React from 'react';
 const Training = () => {
     return (
         <section className="training">
-            <div className="nws-training">
+            <div className="first-training div-training">
                 <div className="img-training">
                     <img src="./img/nws.jpg" alt="de l'école Normandie Web School" className="img-school" />
                 </div>
@@ -13,7 +13,7 @@ const Training = () => {
                     <p className="second-p-training">En cours de formation à la Normandie Web School pour 3 ans.(2ème année)</p>
                 </div>
             </div>
-            <div className="lachataigneraie-training">
+            <div className="second-training div-training">
                 <div className="img-training">
                     <img src="./img/lachataigneraie.jpg" alt="de l'école Normandie Web School" className="img-school" />
                 </div>

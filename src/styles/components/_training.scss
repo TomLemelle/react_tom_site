@@ -1,3 +1,39 @@
 .training {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+
+    .div-training {
+        display: grid;
+        grid-template-rows: 1fr;
+        
+        .img-training {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .about-training {
+        
+        h3 {
+            font-size: 22px;
+            color: #000;
+        }
+
+        .first-p-training {
+            font-size: 16px;
+            color: $blue;
+            margin-bottom: 10px;
+        }
+
+        .second-p-training {
+            font-size: 16px;
+            color: #98A9AA;
+        }
+    }
+
 }

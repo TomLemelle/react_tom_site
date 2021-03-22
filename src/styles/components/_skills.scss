@@ -1,0 +1,45 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.software-carousel {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 80%;
+    }
+}
+
+.software-skills {
+    flex-basis: 100%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-skills {
+    list-style-type: none;
+
+    li {
+        padding: 15px 0;
+    }
+
+    .span-skills {
+        margin-left: 5px;
+        font-size: 25px;
+        color: #159DA4;
+    }
+
+
+    p {
+        margin-bottom: 20px;
+        margin-left: 25px;
+        margin-top: 5px;
+        color: $grey;
+        font-size: 18px;
+    }
+}

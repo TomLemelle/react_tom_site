@@ -2,6 +2,7 @@ import React from 'react';
 import Biography from '../components/Biography';
 import HeroBanner from '../components/HeroBanner';
 import Job from '../components/Job';
+import Internship from '../components/milestone/Internship';
 import Navigation from '../components/Navigation';
 import Separator from '../components/Separator';
 import Skills from '../components/Skills';
@@ -19,6 +20,8 @@ const Home = () => {
             <Skills />
             <Separator title="Formations" description="Écoles" />
             <Training />
+            <Separator title="Expériences" description="Stages" />
+            <Internship />
         </>
     );
 };

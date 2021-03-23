@@ -1,0 +1,63 @@
+.milestone {
+    list-style: none;
+    margin: 10px 9.5%;
+
+    .milestone-item {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        grid-gap: 1em;
+    
+        margin-bottom: 4em;
+  
+        .milestone-logo {
+            position: relative;
+
+            h2 {
+                display: none;
+            }
+
+            img {
+                max-width: 100%;
+            }
+              
+        }
+    }
+}
+  
+  .milestone-item:not(:last-child) .milestone-logo:after {
+    content: "";
+  
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    display: block;
+    width: 1px;
+    height: 100%;
+  
+    border-left: 1px dashed #999;
+  }
+  
+  
+  .milestone-logo i,
+  .milestone-logo img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+  }
+  
+ 
+  
+  .milestone-content h2{
+    margin-left: -2px;
+  }
+
+  .milestone-h2{
+    margin-left: -142px;
+  }

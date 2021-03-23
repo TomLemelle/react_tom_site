@@ -1,0 +1,74 @@
+@media (min-width: 2000px) and (max-width: 2560px) {
+    .internship {
+        max-width: 39%;
+    }
+}
+
+@media (min-width: 1330px) and (max-width: 1999px) {
+    .internship {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1050px) {
+
+    .milestone-content h2{
+        display: none;
+    }
+
+    
+
+    .milestone{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        margin-left: 350px;
+        margin-right: 60px;
+
+        .milestone-item {
+            margin-bottom: 4em;
+
+            .milestone-logo{
+
+                .milestone-th{
+                    display: block;
+                    zoom: 1;
+                    position: absolute;
+                    width: 30px;
+                    height: 1px;
+                    right: 100px;
+                    top: 50px;
+                    background-color: #999;
+
+                    &::after{
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 100%;
+                        background-color: inherit;
+                        margin-top: -2px;
+                    }
+                }
+
+                h2 {
+                    display: block;
+                    position: absolute;
+                }
+
+                .keyveo { left: -290px; top: 37px }
+                .mfs { left: -213px; top: 35px }
+                .adl { left: -223px; top: 37px }
+                .linfo { left: -277px; top: 37px }
+                .andchor { left: -280px; top: 37px }
+                .dentanor { left: -214px; top: 37px }
+
+            }
+        }
+
+    } 
+}

@@ -1,0 +1,64 @@
+.passions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+
+    .passions-article {
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 25vh;
+        margin-bottom: 15px;
+        filter: grayscale(60%);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: all .250ms;
+
+        &:hover {
+            filter: grayscale(0%);
+        }
+        &:hover .passions-caption {
+            transform: scale(0) translateX(100%);
+            display: inline-block;
+        }
+
+        .passions-caption {
+            position: absolute;
+            bottom: -15px;
+            padding: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 0.8);
+            transform: scale(1);
+            transition: all ease 500ms;
+
+            .passions-title {
+                font-weight: bold;
+                font-size: 25px;
+                color: #000;
+                text-align: center;
+                margin-top: -15px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.article-1 {
+    background-image: url(../../assets/developpeur.jpg);
+}
+.article-2 {
+    background-image: url(../../assets/productionaudiovisuelle.jpg);
+}
+.article-3 {
+    background-image: url(../../assets/streetworkout.jpg);
+}
+.article-4 {
+    background-image: url(../../assets/gaming.jpg);
+}

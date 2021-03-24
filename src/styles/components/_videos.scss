@@ -1,0 +1,36 @@
+.my-videos {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 25px;
+
+    .youtube-item {
+
+        .youtube-caption {
+
+            .youtube-title {
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                text-transform: uppercase;
+                font-size: 25px;
+                color: #159DA4;
+            }
+        }
+    }
+
+
+
+    @media (max-width: 1050px) {
+        .youtube-item {
+            width: 100%;
+
+            iframe {
+                width: 100%;
+                height: 25vh;
+            }
+        }
+    }
+
+}

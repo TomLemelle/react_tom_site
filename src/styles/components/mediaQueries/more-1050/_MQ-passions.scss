@@ -1,0 +1,19 @@
+@media (min-width: 1050px) {
+
+    .passions { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 25px;
+    }
+
+}
+
+@media (min-width: 1051px) and (max-width: 1600px) {
+    .passions { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 25px;
+    }
+}
